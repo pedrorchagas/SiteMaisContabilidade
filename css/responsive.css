@@ -19,6 +19,10 @@
     grid-template-columns: 1fr;
   }
 
+  .hero-background {
+    min-height: 400px;
+  }
+
   .hero-texto h1 {
     font-size: 2.25rem;
   }
