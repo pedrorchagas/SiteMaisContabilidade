@@ -1,0 +1,72 @@
+{
+  "name": "Mais Contabilidade",
+  "short_name": "Mais Contabilidade",
+  "description": "Contabilidade especializada em Terceiro Setor, Simples Nacional, Holding Familiar e Processos Administrativos em Anápolis, Goiás.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#007B3C",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/assets/images/MAISCONTABILIDADELOGO.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/MAISCONTABILIDADELOGO.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/images/MAISCONTABILIDADELOGO.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [
+    {
+      "src": "/assets/images/MOCANAFRENTEDOPC.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/assets/images/CRESCIMENTOEMPRESA.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Sobre Nós",
+      "short_name": "Sobre",
+      "description": "Conheça nossa história e valores",
+      "url": "/sobre/",
+      "icons": [
+        {
+          "src": "/assets/images/MAISCONTABILIDADELOGO.svg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contato",
+      "short_name": "Contato",
+      "description": "Entre em contato conosco",
+      "url": "/contato/",
+      "icons": [
+        {
+          "src": "/assets/images/MAISCONTABILIDADELOGO.svg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

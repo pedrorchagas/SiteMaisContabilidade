@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+Allow: /sobre/
+Allow: /contato/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+
+# Regras específicas para Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Regras para Bingbot
+User-agent: Bingbot
+Allow: /
+
+# Arquivo de sitemap
+Sitemap: https://www.maiscontabilidade.com.br/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Definir velocidade de requisição (em segundos)
+Request-rate: 1/5

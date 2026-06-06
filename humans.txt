@@ -1,0 +1,62 @@
+/* ================================================
+   MAIS CONTABILIDADE - humans.txt
+   Informações sobre as pessoas e ferramentas por trás deste site
+   ================================================ */
+
+/* EQUIPE */
+Empresa: Mais Contabilidade
+Website: https://www.maiscontabilidade.com.br/
+Localização: Anápolis, Goiás, Brasil
+Email: contato@maiscontabilidade.com.br
+Telefone: (62) 99315-4555
+
+/* DESENVOLVIMENTO */
+Designer de Experiência: Equipe Mais Contabilidade
+Desenvolvedor Frontend: Desenvolvido com cuidado e precisão
+SEO Specialist: Otimizado para buscas em Anápolis e especialidades
+Desenvolvedor de Conteúdo: Time de Contadores
+
+/* TECNOLOGIAS UTILIZADAS */
+- HTML5 (Semântica e Acessibilidade)
+- CSS3 (Design Responsivo e Modern)
+- JavaScript (Funcionalidades e Interatividade)
+- Google Maps API (Localização Interativa)
+- Formspree (Tratamento de Formulários)
+- Google Fonts (Tipografia Moderna)
+
+/* FONTES UTILIZADAS */
+- Poppins (Google Fonts) - Fonte Principal
+- Inter (Google Fonts) - Fonte Secundária
+
+/* PRINCÍPIOS DE DESIGN */
+- Gestalt: Agrupamento, Proximidade, Continuidade
+- Heurísticas de Nielsen: 10 Heurísticas de Usabilidade
+- Mobile First: Desenvolvimento responsivo
+- Acessibilidade: WCAG 2.1 Guidelines
+
+/* SEGURANÇA E COMPLIANCE */
+- HTTPS: Conexão Segura
+- CSP: Content Security Policy
+- GDPR: Proteção de Dados
+- X-Frame-Options: Proteção contra Clickjacking
+
+/* SITEMAPS E ÍNDICES */
+- Sitemap: /sitemap.xml
+- Robots: /robots.txt
+- Manifest: /manifest.json
+
+/* CONTATO PARA FEEDBACK */
+Email: contato@maiscontabilidade.com.br
+Telefone: (62) 99315-4555
+WhatsApp: https://wa.me/5562993154555
+
+/* ÚLTIMAS ATUALIZAÇÕES */
+Última modificação: 6 de junho de 2024
+Versão do Site: 1.0
+Status: Em Produção
+
+/* AGRADECIMENTOS */
+Agradecemos a todos os que confiam em nossos serviços contábeis.
+Seu sucesso é nossa motivação.
+
+Desenvolvido com ♥ para trazer a melhor experiência contábil.
