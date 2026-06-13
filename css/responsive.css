@@ -63,10 +63,11 @@
   /* Header */
   header .header-container {
     padding: var(--espacamento-md) 0;
+    min-height: 0;
   }
 
   .logo img {
-    height: 40px;
+    height: 56px;
   }
 
   nav {
