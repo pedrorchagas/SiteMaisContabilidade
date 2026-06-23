@@ -385,6 +385,49 @@ nav a.ativo::after {
   width: 100%;
 }
 
+/* WhatsApp em destaque no menu (à esquerda do Home) */
+.nav-whatsapp {
+  margin-right: var(--espacamento-md);
+  padding-right: var(--espacamento-lg);
+  border-right: 1px solid var(--cor-cinza-medio);
+}
+
+.nav-whatsapp a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacamento-xs);
+  background-color: rgba(0, 123, 60, 0.1);
+  color: var(--cor-verde-claro);
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+}
+
+.nav-whatsapp a::after {
+  display: none;
+}
+
+.nav-whatsapp a:hover {
+  background-color: var(--cor-verde-claro);
+  color: var(--cor-branco);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-leve);
+}
+
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  background-color: var(--cor-verde-claro);
+  -webkit-mask: url('../assets/images/whatsapp-logo_icon-icons.com_57054.svg') center / contain no-repeat;
+  mask: url('../assets/images/whatsapp-logo_icon-icons.com_57054.svg') center / contain no-repeat;
+}
+
+.nav-whatsapp a:hover .whatsapp-icon {
+  background-color: var(--cor-branco);
+}
+
 /* Menu Mobile */
 .menu-toggle {
   display: none;
