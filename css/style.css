@@ -363,21 +363,21 @@ header {
   display: block;
 }
 
-nav ul {
+header nav ul {
   display: flex;
   list-style: none;
   gap: var(--espacamento-lg);
   align-items: center;
 }
 
-nav a {
+header nav a {
   font-weight: 500;
   color: var(--cor-texto-principal);
   transition: var(--transicao-padrao);
   position: relative;
 }
 
-nav a::after {
+header nav a::after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -388,20 +388,20 @@ nav a::after {
   transition: width 0.3s ease;
 }
 
-nav a:hover {
+header nav a:hover {
   color: var(--cor-verde-claro);
   text-decoration: none;
 }
 
-nav a:hover::after {
+header nav a:hover::after {
   width: 100%;
 }
 
-nav a.ativo {
+header nav a.ativo {
   color: var(--cor-verde-claro);
 }
 
-nav a.ativo::after {
+header nav a.ativo::after {
   width: 100%;
 }
 
