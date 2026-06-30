@@ -103,9 +103,6 @@ Options -Indexes
 # ================================================
 
 <IfModule mod_headers.c>
-  # Permitir acesso de qualquer origem (CORS)
-  Header set Access-Control-Allow-Origin "*"
-  
   # Evitar clickjacking
   Header set X-Frame-Options "SAMEORIGIN"
   

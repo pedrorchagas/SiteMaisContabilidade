@@ -48,7 +48,7 @@
       "name": "Sobre Nós",
       "short_name": "Sobre",
       "description": "Conheça nossa história e valores",
-      "url": "/sobre/",
+      "url": "/sobre.html",
       "icons": [
         {
           "src": "/assets/images/MAISCONTABILIDADELOGO.svg",
@@ -60,7 +60,7 @@
       "name": "Contato",
       "short_name": "Contato",
       "description": "Entre em contato conosco",
-      "url": "/contato/",
+      "url": "/contato.html",
       "icons": [
         {
           "src": "/assets/images/MAISCONTABILIDADELOGO.svg",

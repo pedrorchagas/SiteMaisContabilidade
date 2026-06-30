@@ -9,32 +9,34 @@
   <!-- SEO Meta Tags -->
   <title>Contato | Mais Contabilidade - Anápolis, Goiás</title>
   <meta name="description" content="Entre em contato com a Mais Contabilidade. Telefone, endereço, mapa interativo e formulário de contato. Estamos localizados em Anápolis - GO.">
-  <meta name="keywords" content="contato contabilidade, telefone, endereço, anápolis, goiás, localização, mapa">
+  <meta name="keywords" content="contato.html contabilidade, telefone, endereço, anápolis, goiás, localização, mapa">
   <meta name="author" content="Mais Contabilidade">
   <meta name="robots" content="index, follow">
   
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.maiscontabilidade.com.br/contato/">
+  <meta property="og:url" content="https://www.maiscontabilidade.com.br/contato.html">
   <meta property="og:title" content="Contato | Mais Contabilidade">
   <meta property="og:description" content="Entre em contato com a Mais Contabilidade em Anápolis, Goiás. Estamos prontos para conversar sobre seu negócio.">
-  <meta property="og:image" content="https://www.maiscontabilidade.com.br/assets/images/MAISCONTABILIDADELOGO.svg">
+  <meta property="og:image" content="https://www.maiscontabilidade.com.br/assets/images/CRESCIMENTOEMPRESA.png">
   <meta property="og:locale" content="pt_BR">
   
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="../assets/images/MAISCONTABILIDADELOGO.svg">
-  
+  <link rel="icon" type="image/svg+xml" href="assets/images/MAISCONTABILIDADELOGO.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#007B3C">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- CSS -->
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://www.maiscontabilidade.com.br/contato/">
+  <link rel="canonical" href="https://www.maiscontabilidade.com.br/contato.html">
 </head>
 <body>
   <!-- HEADER -->
@@ -42,26 +44,28 @@
     <div class="container">
       <div class="header-container">
         <div class="logo">
-          <img src="../assets/images/Maiscontabilidadesemfundo.svg" alt="Logo Mais Contabilidade" title="Mais Contabilidade">
+          <img src="assets/images/Maiscontabilidadesemfundo.svg" alt="Logo Mais Contabilidade" title="Mais Contabilidade">
         </div>
         
         <nav>
-          <ul>
+          <ul id="menu-principal">
             <li class="nav-whatsapp"><a href="https://wa.me/5562993154555?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20com%20a%20Mais%20Contabilidade." target="_blank" rel="noopener noreferrer" title="Falar no WhatsApp"><span class="whatsapp-icon" aria-hidden="true"></span>(62) 99315-4555</a></li>
             <li><a href="/" title="Ir para página inicial">Home</a></li>
-            <li><a href="/sobre/" title="Conhecer nossa história">Sobre</a></li>
-            <li><a href="/contato/" title="Entrar em contato conosco">Contato</a></li>
+            <li><a href="/sobre.html" title="Conhecer nossa história">Sobre</a></li>
+            <li><a href="/contato.html" title="Entrar em contato conosco">Contato</a></li>
           </ul>
         </nav>
         
-        <div class="menu-toggle" aria-label="Abrir menu">
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
       </div>
     </div>
   </header>
+
+  <main id="conteudo">
 
   <!-- BREADCRUMB -->
   <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -73,7 +77,7 @@
   </nav>
 
   <!-- HERO SECTION -->
-  <section class="hero hero-background" style="background-image: url('../assets/images/CRESCIMENTOEMPRESA.png');">
+  <section class="hero hero-background" style="background-image: url('assets/images/CRESCIMENTOEMPRESA.png');">
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content-single">
@@ -96,7 +100,7 @@
       <div class="grid grid-3 contatos-info">
         <!-- Telefone -->
         <div class="card">
-          <div class="card-icon"><img src="../assets/images/whatsapp-logo_icon-icons.com_57054.svg" alt="Ícone WhatsApp" class="card-icon-img"></div>
+          <div class="card-icon"><img src="assets/images/whatsapp-logo_icon-icons.com_57054.svg" alt="Ícone WhatsApp" class="card-icon-img"></div>
           <h3>WhatsApp</h3>
           <p style="margin-bottom: 1rem;">
             Envie mensagens e receba respostas rápidas. A forma mais ágil de se comunicar conosco.
@@ -108,7 +112,7 @@
 
         <!-- Telefone Celular -->
         <div class="card">
-          <div class="card-icon"><img src="../assets/images/phone-volume_icon-icons.com_56474.svg" alt="Ícone telefone celular" class="card-icon-img"></div>
+          <div class="card-icon"><img src="assets/images/phone-volume_icon-icons.com_56474.svg" alt="Ícone telefone celular" class="card-icon-img"></div>
           <h3>Telefone Celular</h3>
           <p style="margin-bottom: 1rem;">
             (62) 99315-4555
@@ -120,12 +124,12 @@
 
         <!-- Telefone Fixo -->
         <div class="card">
-          <div class="card-icon"><img src="../assets/images/telephone-of-vintage-design_icon-icons.com_56462.svg" alt="Ícone telefone fixo" class="card-icon-img"></div>
+          <div class="card-icon"><img src="assets/images/telephone-of-vintage-design_icon-icons.com_56462.svg" alt="Ícone telefone fixo" class="card-icon-img"></div>
           <h3>Telefone Fixo</h3>
           <p style="margin-bottom: 1rem;">
             (62) 3706-4555
           </p>
-          <a href="tel:+5562370645555" class="btn btn-primario">
+          <a href="tel:+556237064555" class="btn btn-primario">
             Chamar Escritório
           </a>
         </div>
@@ -155,7 +159,7 @@
         <div>
           <h3 style="margin-bottom: var(--espacamento-md);">Endereço</h3>
           <p style="margin-bottom: var(--espacamento-lg);">
-            <strong>Rua Ângelo Teles Esq. Rua Mestro Simão</strong><br>
+            <strong>Rua Ângelo Teles Esq. Rua Mestre Simão</strong><br>
             Vila Santa Maria de Nazareth<br>
             Anápolis - GO<br>
             Brasil
@@ -185,7 +189,7 @@
           Entre em contato conosco agora mesmo via WhatsApp. Estamos prontos para entender suas necessidades e oferecer a melhor solução contábil para seu negócio.
         </p>
         <a href="https://wa.me/5562993154555?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20com%20a%20Mais%20Contabilidade.%20Tenho%20interesse%20em%20conhecer%20seus%20servi%C3%A7os." target="_blank" rel="noopener noreferrer" class="btn btn-primario btn-lg">
-          <img src="../assets/images/whatsapp-logo_icon-icons.com_57054.svg" alt="" class="btn-icon"> Iniciar Conversa no WhatsApp
+          <img src="assets/images/whatsapp-logo_icon-icons.com_57054.svg" alt="" class="btn-icon"> Iniciar Conversa no WhatsApp
         </a>
       </div>
     </div>
@@ -243,6 +247,8 @@
     </div>
   </section>
 
+  </main>
+
   <!-- FOOTER -->
   <footer>
     <div class="container">
@@ -256,8 +262,8 @@
           <h4>Navegação</h4>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/sobre/">Sobre</a></li>
-            <li><a href="/contato/">Contato</a></li>
+            <li><a href="/sobre.html">Sobre</a></li>
+            <li><a href="/contato.html">Contato</a></li>
           </ul>
         </div>
 
@@ -265,7 +271,7 @@
           <h4>Contato</h4>
           <ul>
             <li><a href="tel:+5562993154555">(62) 99315-4555</a></li>
-            <li><a href="tel:+5562370645555">(62) 3706-4555</a></li>
+            <li><a href="tel:+556237064555">(62) 3706-4555</a></li>
             <li><a href="https://www.google.com/maps/place/Mais+Contabilidade/@-16.327248,-48.9444915" target="_blank" rel="noopener noreferrer">R. Ângelo Teles - Vila Santa Maria de Nazareth, Anápolis - GO, 75113-300</a></li>
           </ul>
         </div>
@@ -281,12 +287,12 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2024 Mais Contabilidade. Todos os direitos reservados. | Desenvolvido com ♥ para seu sucesso.</p>
+        <p>&copy; 2026 Mais Contabilidade. Todos os direitos reservados. | Desenvolvido com ♥ para seu sucesso.</p>
       </div>
     </div>
   </footer>
 
   <!-- Scripts -->
-  <script src="../js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

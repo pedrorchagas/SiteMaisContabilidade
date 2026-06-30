@@ -122,6 +122,11 @@
     padding: var(--espacamento-lg) 0;
   }
 
+  /* Evita travamento de scroll em mobile (iOS ignora background fixed) */
+  .hero-background {
+    background-attachment: scroll;
+  }
+
   .hero::before {
     width: 200px;
     height: 200px;

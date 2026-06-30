@@ -9,13 +9,13 @@
   <!-- SEO Meta Tags -->
   <title>Sobre Mais Contabilidade | História, Missão e Valores</title>
   <meta name="description" content="Conheça a história da Mais Contabilidade. Uma contabilidade que vai além dos números, oferecendo parceria estratégica e economia real de impostos para seu negócio em Anápolis, Goiás.">
-  <meta name="keywords" content="sobre contabilidade, história, missão, valores, confiança, parceria contábil, Anápolis">
+  <meta name="keywords" content="sobre.html contabilidade, história, missão, valores, confiança, parceria contábil, Anápolis">
   <meta name="author" content="Mais Contabilidade">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.maiscontabilidade.com.br/sobre/">
+  <meta property="og:url" content="https://www.maiscontabilidade.com.br/sobre.html">
   <meta property="og:title" content="Sobre Mais Contabilidade | Nossa História e Valores">
   <meta property="og:description" content="Conheça a trajetória da Mais Contabilidade e como nos tornamos parceiros confiáveis em gestão contábil.">
   <meta property="og:image" content="https://www.maiscontabilidade.com.br/assets/images/HOMENSAPERTODEMAOS.png">
@@ -28,19 +28,21 @@
   <meta name="twitter:image" content="https://www.maiscontabilidade.com.br/assets/images/HOMENSAPERTODEMAOS.png">
   
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="../assets/images/MAISCONTABILIDADELOGO.svg">
-  
+  <link rel="icon" type="image/svg+xml" href="assets/images/MAISCONTABILIDADELOGO.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#007B3C">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- CSS -->
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   
   <!-- Canonical -->
-  <link rel="canonical" href="https://www.maiscontabilidade.com.br/sobre/">
+  <link rel="canonical" href="https://www.maiscontabilidade.com.br/sobre.html">
 </head>
 <body>
   <!-- HEADER -->
@@ -48,26 +50,28 @@
     <div class="container">
       <div class="header-container">
         <div class="logo">
-          <img src="../assets/images/Maiscontabilidadesemfundo.svg" alt="Logo Mais Contabilidade" title="Mais Contabilidade">
+          <img src="assets/images/Maiscontabilidadesemfundo.svg" alt="Logo Mais Contabilidade" title="Mais Contabilidade">
         </div>
         
         <nav>
-          <ul>
+          <ul id="menu-principal">
             <li class="nav-whatsapp"><a href="https://wa.me/5562993154555?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20com%20a%20Mais%20Contabilidade." target="_blank" rel="noopener noreferrer" title="Falar no WhatsApp"><span class="whatsapp-icon" aria-hidden="true"></span>(62) 99315-4555</a></li>
             <li><a href="/" title="Ir para página inicial">Home</a></li>
-            <li><a href="/sobre/" title="Conhecer nossa história">Sobre</a></li>
-            <li><a href="/contato/" title="Entrar em contato conosco">Contato</a></li>
+            <li><a href="/sobre.html" title="Conhecer nossa história">Sobre</a></li>
+            <li><a href="/contato.html" title="Entrar em contato conosco">Contato</a></li>
           </ul>
         </nav>
         
-        <div class="menu-toggle" aria-label="Abrir menu">
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
       </div>
     </div>
   </header>
+
+  <main id="conteudo">
 
   <!-- BREADCRUMB -->
   <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -107,14 +111,14 @@
           </p>
         </div>
         <div class="sobre-imagem">
-          <img src="../assets/images/CRESCIMENTOEMPRESA.png" alt="Gráficos de crescimento em tablet - visão estratégica" title="Crescimento empresarial">
+          <img src="assets/images/CRESCIMENTOEMPRESA.png" alt="Gráficos de crescimento em tablet - visão estratégica" title="Crescimento empresarial" width="1408" height="768" loading="lazy" decoding="async">
         </div>
       </div>
     </div>
   </section>
 
   <!-- MISSÃO E VISÃO -->
-  <section class="secao secao-alternada" style="background-image: url('../assets/images/HOMENSAPERTODEMAOS.png'); background-size: cover; background-position: center; background-attachment: fixed; padding: 0;">
+  <section class="secao secao-alternada" style="background-image: url('assets/images/HOMENSAPERTODEMAOS.png'); background-size: cover; background-position: center; padding: 0;">
     <div style="background: rgba(2, 46, 21, 0.85); padding: 4rem 0;">
       <div class="container">
         <div class="titulo-secao">
@@ -145,7 +149,7 @@
     <div class="container">
       <div class="sobre-content">
         <div class="sobre-imagem">
-          <img src="../assets/images/HOMENSAPERTODEMAOS.png" alt="Aperto de mão entre profissionais - confiança e parceria" title="Confiança e parceria">
+          <img src="assets/images/HOMENSAPERTODEMAOS.png" alt="Aperto de mão entre profissionais - confiança e parceria" title="Confiança e parceria" width="1408" height="768" loading="lazy" decoding="async">
         </div>
         <div class="sobre-text">
           <h2>O Que Nos Diferencia?</h2>
@@ -171,10 +175,12 @@
         <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
           Agende uma conversa com nossos especialistas e descubra como a Mais Contabilidade pode transformar sua gestão contábil.
         </p>
-        <a href="/contato/" class="btn btn-primario btn-lg" style="background-color: white; color: #007B3C;">Agendar Conversa</a>
+        <a href="/contato.html" class="btn btn-primario btn-lg" style="background-color: white; color: #007B3C;">Agendar Conversa</a>
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer>
@@ -189,8 +195,8 @@
           <h4>Navegação</h4>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/sobre/">Sobre</a></li>
-            <li><a href="/contato/">Contato</a></li>
+            <li><a href="/sobre.html">Sobre</a></li>
+            <li><a href="/contato.html">Contato</a></li>
           </ul>
         </div>
 
@@ -198,7 +204,7 @@
           <h4>Contato</h4>
           <ul>
             <li><a href="tel:+5562993154555">(62) 99315-4555</a></li>
-            <li><a href="tel:+5562370645555">(62) 3706-4555</a></li>
+            <li><a href="tel:+556237064555">(62) 3706-4555</a></li>
             <li><a href="https://www.google.com/maps/place/Mais+Contabilidade/@-16.327248,-48.9444915" target="_blank" rel="noopener noreferrer">R. Ângelo Teles - Vila Santa Maria de Nazareth, Anápolis - GO, 75113-300</a></li>
           </ul>
         </div>
@@ -214,12 +220,12 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2024 Mais Contabilidade. Todos os direitos reservados. | Desenvolvido com ♥ para seu sucesso.</p>
+        <p>&copy; 2026 Mais Contabilidade. Todos os direitos reservados. | Desenvolvido com ♥ para seu sucesso.</p>
       </div>
     </div>
   </footer>
 
   <!-- Scripts -->
-  <script src="../js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

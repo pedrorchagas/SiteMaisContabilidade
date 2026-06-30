@@ -19,14 +19,14 @@
   <meta property="og:url" content="https://www.maiscontabilidade.com.br/">
   <meta property="og:title" content="Mais Contabilidade | Contabilidade em Anápolis - GO">
   <meta property="og:description" content="Parceiro contábil especializado em Terceiro Setor, Simples Nacional, Holding Familiar. Soluções contábeis completas para seu negócio.">
-  <meta property="og:image" content="https://www.maiscontabilidade.com.br/assets/images/MAISCONTABILIDADELOGO.svg">
+  <meta property="og:image" content="https://www.maiscontabilidade.com.br/assets/images/MOCANAFRENTEDOPC.png">
   <meta property="og:locale" content="pt_BR">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mais Contabilidade | Contabilidade em Anápolis - GO">
   <meta name="twitter:description" content="Contabilidade especializada. Parceiro confiável para economia de impostos e gestão contábil.">
-  <meta name="twitter:image" content="https://www.maiscontabilidade.com.br/assets/images/MAISCONTABILIDADELOGO.svg">
+  <meta name="twitter:image" content="https://www.maiscontabilidade.com.br/assets/images/MOCANAFRENTEDOPC.png">
   
   <!-- Schema.org - Dados Estruturados -->
   <script type="application/ld+json">
@@ -38,10 +38,10 @@
     "description": "Contabilidade especializada em Terceiro Setor, Simples Nacional, Holding Familiar e Processos Administrativos",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Rua Ângelo Teles Esq. Rua Mestro Simão",
+      "streetAddress": "Rua Ângelo Teles Esq. Rua Mestre Simão",
       "addressLocality": "Anápolis",
       "addressRegion": "GO",
-      "postalCode": "75000-000",
+      "postalCode": "75113-300",
       "addressCountry": "BR"
     },
     "telephone": ["+55 62 99315-4555", "+55 62 3706-4555"],
@@ -62,6 +62,8 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/images/MAISCONTABILIDADELOGO.svg">
   <link rel="apple-touch-icon" href="assets/images/MAISCONTABILIDADELOGO.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#007B3C">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,22 +87,24 @@
         </div>
         
         <nav>
-          <ul>
+          <ul id="menu-principal">
             <li class="nav-whatsapp"><a href="https://wa.me/5562993154555?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20com%20a%20Mais%20Contabilidade." target="_blank" rel="noopener noreferrer" title="Falar no WhatsApp"><span class="whatsapp-icon" aria-hidden="true"></span>(62) 99315-4555</a></li>
             <li><a href="/" title="Ir para página inicial">Home</a></li>
-            <li><a href="/sobre/" title="Conhecer nossa história">Sobre</a></li>
-            <li><a href="/contato/" title="Entrar em contato conosco">Contato</a></li>
+            <li><a href="/sobre.html" title="Conhecer nossa história">Sobre</a></li>
+            <li><a href="/contato.html" title="Entrar em contato conosco">Contato</a></li>
           </ul>
         </nav>
         
-        <div class="menu-toggle" aria-label="Abrir menu">
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
       </div>
     </div>
   </header>
+
+  <main id="conteudo">
 
   <!-- HERO SECTION -->
   <section class="hero hero-background" style="background-image: url('assets/images/MOCANAFRENTEDOPC.png');">
@@ -111,7 +115,7 @@
           <h1>Mais que sua contabilidade, seu parceiro!</h1>
           <p>Mais que números. Mais que serviços. Somos seu parceiro estratégico em economia de impostos e gestão contábil completa.</p>
           <div class="hero-botoes">
-            <a href="/contato/" class="btn btn-primario btn-lg">Entrar em contato</a>
+            <a href="/contato.html" class="btn btn-primario btn-lg">Entrar em contato</a>
             <a href="#servicos" class="btn btn-secundario btn-hero-secundario btn-lg">Conheça Nossos Serviços</a>
           </div>
         </div>
@@ -140,7 +144,7 @@
         <!-- Simples Nacional -->
         <div class="servico-card">
           <div class="servico-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <line x1="12" y1="2" x2="12" y2="22"></line>
               <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
             </svg>
@@ -152,7 +156,7 @@
         <!-- Holding Familiar -->
         <div class="servico-card">
           <div class="servico-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
             </svg>
@@ -182,7 +186,7 @@
         <!-- Consultoria Empresarial -->
         <div class="servico-card">
           <div class="servico-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <polyline points="23 6 13.5 15.5 8 10 1 17"></polyline>
               <polyline points="17 6 23 6 23 12"></polyline>
             </svg>
@@ -213,7 +217,7 @@
 
         <div class="card">
           <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
               <circle cx="9" cy="7" r="4"></circle>
               <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -226,7 +230,7 @@
 
         <div class="card">
           <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <line x1="12" y1="2" x2="12" y2="22"></line>
               <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
             </svg>
@@ -237,7 +241,7 @@
 
         <div class="card">
           <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg>
           </div>
@@ -247,7 +251,7 @@
 
         <div class="card">
           <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <circle cx="12" cy="12" r="1"></circle>
               <path d="M12 8v8m4-4H8"></path>
               <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"></path>
@@ -259,7 +263,7 @@
 
         <div class="card">
           <div class="card-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <polyline points="23 6 13.5 15.5 8 10 1 17"></polyline>
               <polyline points="17 6 23 6 23 12"></polyline>
             </svg>
@@ -279,10 +283,12 @@
         <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
           Entre em contato conosco hoje mesmo e descubra como a Mais Contabilidade pode impulsionar seu negócio.
         </p>
-        <a href="/contato/" class="btn btn-primario btn-lg" style="background-color: white; color: #007B3C;">Iniciar Conversa</a>
+        <a href="/contato.html" class="btn btn-primario btn-lg" style="background-color: white; color: #007B3C;">Iniciar Conversa</a>
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer>
@@ -297,8 +303,8 @@
           <h4>Navegação</h4>
           <ul>
             <li><a href="/" title="Página inicial">Home</a></li>
-            <li><a href="/sobre/" title="Sobre nós">Sobre</a></li>
-            <li><a href="/contato/" title="Contato">Contato</a></li>
+            <li><a href="/sobre.html" title="Sobre nós">Sobre</a></li>
+            <li><a href="/contato.html" title="Contato">Contato</a></li>
           </ul>
         </div>
 
@@ -306,7 +312,7 @@
           <h4>Contato</h4>
           <ul>
             <li><a href="tel:+5562993154555" title="Chamar no WhatsApp">(62) 99315-4555</a></li>
-            <li><a href="tel:+5562370645555" title="Chamar fixo">(62) 3706-4555</a></li>
+            <li><a href="tel:+556237064555" title="Chamar fixo">(62) 3706-4555</a></li>
             <li><a href="https://www.google.com/maps/place/Mais+Contabilidade/@-16.327248,-48.9444915" target="_blank" rel="noopener noreferrer" title="Ver no Google Maps">R. Ângelo Teles - Vila Santa Maria de Nazareth, Anápolis - GO, 75113-300</a></li>
           </ul>
         </div>
@@ -322,7 +328,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2024 Mais Contabilidade. Todos os direitos reservados. | Desenvolvido com ♥ para seu sucesso.</p>
+        <p>&copy; 2026 Mais Contabilidade. Todos os direitos reservados. | Desenvolvido com ♥ para seu sucesso.</p>
       </div>
     </div>
   </footer>

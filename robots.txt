@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
-Allow: /sobre/
-Allow: /contato/
+Allow: /sobre.html
+Allow: /contato.html
 Disallow: /admin/
 Disallow: /private/
 Disallow: /*.json$

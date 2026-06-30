@@ -10,14 +10,18 @@
   <meta name="robots" content="index, follow">
   
   <link rel="icon" type="image/svg+xml" href="assets/images/MAISCONTABILIDADELOGO.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#007B3C">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
   <!-- HEADER -->
   <header>
     <div class="container">
@@ -27,22 +31,24 @@
         </div>
         
         <nav>
-          <ul>
+          <ul id="menu-principal">
             <li class="nav-whatsapp"><a href="https://wa.me/5562993154555?text=Ol%C3%A1!%20Gostaria%20de%20conversar%20com%20a%20Mais%20Contabilidade." target="_blank" rel="noopener noreferrer" title="Falar no WhatsApp"><span class="whatsapp-icon" aria-hidden="true"></span>(62) 99315-4555</a></li>
             <li><a href="/">Home</a></li>
-            <li><a href="/sobre/">Sobre</a></li>
-            <li><a href="/contato/">Contato</a></li>
+            <li><a href="/sobre.html">Sobre</a></li>
+            <li><a href="/contato.html">Contato</a></li>
           </ul>
         </nav>
         
-        <div class="menu-toggle" aria-label="Abrir menu">
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
       </div>
     </div>
   </header>
+
+  <main id="conteudo">
 
   <!-- CONTEÚDO -->
   <section class="secao">
@@ -60,12 +66,12 @@
         </p>
 
         <h2>2. Informações que Coletamos</h2>
-        <p>Podemos coletar as seguintes informações:</p>
+        <p>
+          Este é um site institucional e não possui formulários, cadastro ou área de login. As informações que recebemos são apenas aquelas que você nos envia voluntariamente ao entrar em contato:
+        </p>
         <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
-          <li><strong>Informações de Contato:</strong> Nome, email, telefone, endereço</li>
-          <li><strong>Informações Empresariais:</strong> Dados sobre sua empresa/negócio</li>
-          <li><strong>Dados de Navegação:</strong> IP, navegador, páginas visitadas (via analytics)</li>
-          <li><strong>Dados de Formulário:</strong> Informações que você voluntariamente fornece</li>
+          <li><strong>Informações de Contato:</strong> nome, telefone, e-mail e demais dados que você fornecer ao falar conosco por WhatsApp, telefone ou e-mail</li>
+          <li><strong>Informações Empresariais:</strong> dados sobre sua empresa/negócio que você optar por compartilhar conosco</li>
         </ul>
 
         <h2>3. Como Usamos Suas Informações</h2>
@@ -83,10 +89,10 @@
           Implementamos medidas técnicas e organizacionais para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição. Estas incluem:
         </p>
         <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
-          <li>Conexão HTTPS (criptografia de dados)</li>
+          <li>Conexão HTTPS (criptografia dos dados em trânsito)</li>
           <li>Content Security Policy (CSP)</li>
-          <li>Proteção contra XSS e CSRF</li>
-          <li>Senhas protegidas por hash</li>
+          <li>Proteção contra clickjacking (X-Frame-Options) e MIME-sniffing (X-Content-Type-Options)</li>
+          <li>HTTP Strict Transport Security (HSTS)</li>
         </ul>
 
         <h2>5. Compartilhamento de Dados</h2>
@@ -94,14 +100,14 @@
           Não compartilhamos suas informações pessoais com terceiros, exceto quando:
         </p>
         <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
-          <li>Exigido por lei</li>
-          <li>Para prestadores de serviço (como Formspree para emails)</li>
+          <li>Exigido por lei ou ordem judicial</li>
+          <li>Para prestadores de serviço necessários ao funcionamento do site (ex.: hospedagem)</li>
           <li>Com seu consentimento explícito</li>
         </ul>
 
         <h2>6. Cookies e Tecnologias de Rastreamento</h2>
         <p>
-          Este site não utiliza cookies de rastreamento. Utilizamos apenas cookies necessários para funcionamento do site. O Google Analytics pode ser usado para análise de dados de navegação.
+          Atualmente este site não utiliza cookies de rastreamento nem ferramentas de análise (como o Google Analytics). O mapa de localização é incorporado do Google Maps, que pode definir cookies próprios ao ser carregado na página de contato.
         </p>
 
         <h2>7. Direitos do Usuário</h2>
@@ -137,7 +143,7 @@
         </p>
         <p>
           <strong>Mais Contabilidade</strong><br>
-          Rua Ângelo Teles Esq. Rua Mestro Simão<br>
+          Rua Ângelo Teles Esq. Rua Mestre Simão<br>
           Vila Santa Maria de Nazareth<br>
           Anápolis - GO, Brasil<br>
           <br>
@@ -167,6 +173,8 @@
     </div>
   </section>
 
+  </main>
+
   <!-- FOOTER -->
   <footer>
     <div class="container">
@@ -180,9 +188,9 @@
           <h4>Navegação</h4>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/sobre/">Sobre</a></li>
-            <li><a href="/contato/">Contato</a></li>
-            <li><a href="/politica-privacidade/">Política de Privacidade</a></li>
+            <li><a href="/sobre.html">Sobre</a></li>
+            <li><a href="/contato.html">Contato</a></li>
+            <li><a href="/politica-privacidade.html">Política de Privacidade</a></li>
           </ul>
         </div>
 
@@ -190,21 +198,20 @@
           <h4>Contato</h4>
           <ul>
             <li><a href="tel:+5562993154555">(62) 99315-4555</a></li>
-            <li><a href="tel:+5562370645555">(62) 3706-4555</a></li>
+            <li><a href="tel:+556237064555">(62) 3706-4555</a></li>
           </ul>
         </div>
 
         <div class="footer-secao">
           <h4>Legal</h4>
           <ul>
-            <li><a href="/politica-privacidade/">Privacidade</a></li>
-            <li><a href="/termos/">Termos de Uso</a></li>
+            <li><a href="/politica-privacidade.html">Privacidade</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2024 Mais Contabilidade. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Mais Contabilidade. Todos os direitos reservados.</p>
       </div>
     </div>
   </footer>
