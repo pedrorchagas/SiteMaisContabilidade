@@ -397,5 +397,5 @@ Basta:
 
 **Desenvolvido com ♥ para trazer a melhor experiência contábil.**
 
-Data de criação: 6 de junho de 2024
+Data de criação: 6 de junho de 2026
 Status: ✅ Completo e Pronto para Deploy
