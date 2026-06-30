@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initMenuMobile() {
   const menuToggle = document.querySelector('.menu-toggle');
-  const nav = document.querySelector('nav');
+  const nav = document.querySelector('header nav');
 
   if (!menuToggle || !nav) return;
 
